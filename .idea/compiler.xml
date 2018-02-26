@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservice-movie-consumer" />
         <module name="microservice-provider-user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="microservice-movie-consumer" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
       <module name="springcloudmicroservice" target="1.8" />
     </bytecodeTargetLevel>

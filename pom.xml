@@ -11,6 +11,7 @@
 
     <modules>
         <module>microservice-provider-user</module>
+        <module>microservice-movie-consumer</module>
     </modules>
 
     <!-- 使用最新的spring-boot版本 -->
