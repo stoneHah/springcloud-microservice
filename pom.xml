@@ -12,6 +12,7 @@
     <modules>
         <module>microservice-provider-user</module>
         <module>microservice-movie-consumer</module>
+        <module>microservice-discovery-eureka</module>
     </modules>
 
     <!-- 使用最新的spring-boot版本 -->
