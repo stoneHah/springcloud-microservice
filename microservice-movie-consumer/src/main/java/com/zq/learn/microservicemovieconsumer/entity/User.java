@@ -1,9 +1,12 @@
 package com.zq.learn.microservicemovieconsumer.entity;
 
 public class User {
+
   private Long id;
   private String username;
   private Integer age;
+
+
 
   public Long getId() {
     return this.id;

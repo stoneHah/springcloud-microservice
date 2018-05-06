@@ -1,6 +1,8 @@
 package com.zq.learn.microservicemovieconsumer.controller;
 
+import com.netflix.discovery.converters.Auto;
 import com.zq.learn.microservicemovieconsumer.entity.User;
+import com.zq.learn.microservicemovieconsumer.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,8 +15,12 @@ public class MovieController {
     @Autowired
     private RestTemplate restTemplate;
 
+    @Autowired
+    private UserService userService;
+
+
     @GetMapping("/user/{id}")
     public User findUserById(@PathVariable("id") Long id) {
-        return restTemplate.getForObject("http://localhost:8000/{1}", User.class, id);
+        return userService.getUserById(id.intValue());
     }
 }
