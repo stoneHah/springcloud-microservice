@@ -1,0 +1,13 @@
+
+management:
+  server:
+    port: 9090
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  application:
+    name:  nativeapp
+server:
+  port: 8080

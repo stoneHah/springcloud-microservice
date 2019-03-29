@@ -4,13 +4,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-movie-consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservicediscoveryeureka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
       </set>
     </option>
   </component>

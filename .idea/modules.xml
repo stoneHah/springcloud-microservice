@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-movie-consumer/microservice-movie-consumer.iml" filepath="$PROJECT_DIR$/microservice-movie-consumer/microservice-movie-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-nacos/spring-cloud-config-nacos.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-nacos/spring-cloud-config-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server-git/spring-cloud-config-server-git.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server-git/spring-cloud-config-server-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-native-projects/spring-cloud-native-projects.iml" filepath="$PROJECT_DIR$/spring-cloud-native-projects/spring-cloud-native-projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-provider/spring-cloud-service-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-service-provider/spring-cloud-service-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudmicroservice.iml" filepath="$PROJECT_DIR$/springcloudmicroservice.iml" />
     </modules>
   </component>

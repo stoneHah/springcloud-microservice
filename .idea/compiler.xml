@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="microservice-discovery-eureka" />
-        <module name="microservice-movie-consumer" />
-        <module name="microservice-provider-user" />
+        <module name="spring-cloud-config-nacos" />
+        <module name="spring-cloud-config-server-git" />
+        <module name="spring-cloud-consumer" />
+        <module name="spring-cloud-native-projects" />
+        <module name="spring-cloud-service-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +18,13 @@
       <module name="microservice-movie-consumer" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
       <module name="microservicediscoveryeureka" target="1.8" />
+      <module name="spring-cloud-config" target="1.8" />
+      <module name="spring-cloud-config-nacos" target="1.8" />
+      <module name="spring-cloud-config-server-git" target="1.8" />
+      <module name="spring-cloud-consumer" target="1.8" />
+      <module name="spring-cloud-native-projects" target="1.8" />
+      <module name="spring-cloud-service-provider" target="1.8" />
+      <module name="springcloudconfigservergit" target="1.8" />
       <module name="springcloudmicroservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
