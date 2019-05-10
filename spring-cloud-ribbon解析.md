@@ -2,7 +2,7 @@
 
 要实现http负载均衡，我们只需要在RestTemplate上加上@LoadBalanced就能实现负载均衡了，感觉很magic
 
-### @LoadBalanced是如何启动负载均衡的？
+###  一、@LoadBalanced是如何启动负载均衡的？
 
 ​    通过搜索@LoadBalanced在哪边使用了(idea快捷键alt+f7)，最终可以定位到类`LoadBalancerAutoConfiguration`
 
@@ -70,7 +70,7 @@ public class LoadBalancerAutoConfiguration {
 	}
 ```
 
-### 服务名是如何转换为ip:port 的形式的
+### 二、服务名是如何转换为ip:port 的形式的
 
 ```sequence
 RestTemplate->LoadBalancerInterceptor: intercept()进行拦截处理
@@ -126,11 +126,9 @@ public class ServiceRequestWrapper extends HttpRequestWrapper {
 }
 ```
 
+### 三、服务名转换为ip:port 过程中涉及到哪些负载均衡组件
 
-
-### 服务名转换为ip:port 过程中涉及到哪些负载均衡组件
-
-### ribbon是如何获取注册中心的服务的
+### 四、ribbon是如何获取注册中心的服务的
 
 
 
