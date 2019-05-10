@@ -1,12 +1,11 @@
 server:
   port: 8888
 spring:
-  config:
-    name: config
   application:
     name: configserver
   cloud:
     config:
       server:
         git:
-          uri: file://${user.dir}/spring-cloud-config-server-git/src/main/resources/config
+          uri: https://github.com/stoneHah/config-repo
+          search-paths: /**

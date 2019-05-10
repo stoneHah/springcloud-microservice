@@ -15,6 +15,12 @@
         <module>spring-cloud-config-server-git</module>
         <module>spring-cloud-service-provider</module>
         <module>spring-cloud-consumer</module>
+        <module>licensing-service</module>
+        <module>eureka-server</module>
+        <module>organization-service</module>
+        <module>zuul-server</module>
+        <module>infrastructure</module>
+        <module>spring-cloud-stream-demo</module>
     </modules>
 
     <!-- 使用最新的spring-boot版本 -->
@@ -48,8 +54,6 @@
                 <scope>import</scope>
             </dependency>
         </dependencies>
-
-
     </dependencyManagement>
 
     <build>
@@ -57,6 +61,16 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>0.4.10</version>
+                <configuration>
+                    <baseImage>java</baseImage>
+                    <imageName>example</imageName>
+                </configuration>
             </plugin>
         </plugins>
     </build>

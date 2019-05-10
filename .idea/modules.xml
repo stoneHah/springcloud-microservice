@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infrastructure/infrastructure.iml" filepath="$PROJECT_DIR$/infrastructure/infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/licensing-service/licensing-service.iml" filepath="$PROJECT_DIR$/licensing-service/licensing-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/organization-service/organization-api/organization-api.iml" filepath="$PROJECT_DIR$/organization-service/organization-api/organization-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/organization-service/organization-app/organization-app.iml" filepath="$PROJECT_DIR$/organization-service/organization-app/organization-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/organization-service/organization-service.iml" filepath="$PROJECT_DIR$/organization-service/organization-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-nacos/spring-cloud-config-nacos.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-nacos/spring-cloud-config-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server-git/spring-cloud-config-server-git.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server-git/spring-cloud-config-server-git.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-native-projects/spring-cloud-native-projects.iml" filepath="$PROJECT_DIR$/spring-cloud-native-projects/spring-cloud-native-projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-provider/spring-cloud-service-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-service-provider/spring-cloud-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-stream-demo/spring-cloud-stream-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-stream-demo/spring-cloud-stream-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudmicroservice.iml" filepath="$PROJECT_DIR$/springcloudmicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
     </modules>
   </component>
 </project>

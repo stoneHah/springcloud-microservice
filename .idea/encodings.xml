@@ -2,11 +2,20 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/licensing-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/organization-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/organization-service/organization-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/organization-service/organization-app" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-server-git" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-native-projects" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-service-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-stream-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-server" charset="UTF-8" />
   </component>
 </project>

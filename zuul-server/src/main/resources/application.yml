@@ -1,0 +1,37 @@
+server:
+  port: 5555
+
+
+  #Setting logging levels
+logging:
+    level:
+      com.netflix: DEBUG
+      org.springframework.web: DEBUG
+      com.zq: DEBUG
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  prefix:  /api
+  routes:
+    organizationservice: /organization/**
+    licensingservice: /licensing/**
+#  ignored-services: organizationservice
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  zipkin:
+      base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      probability: 1

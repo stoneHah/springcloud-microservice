@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservicediscoveryeureka/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin-server/pom.xml" />
       </set>
     </option>
   </component>
